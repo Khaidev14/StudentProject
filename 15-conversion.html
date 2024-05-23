@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylings/15-conversion.css">
+  <script src="https://kit.fontawesome.com/e155b39f59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-----------------------------------------------HEADER---------------------------------------->
+    <div class="header">
+      <button class="tag-logo">
+        <span class="original-text">&nbsp;Javascript&nbsp;</span>
+        <span class="animated-text">&nbsp;Javascript&nbsp;</span>
+      </button>
+      <div class="navigation-container">
+        <a class="nav-choice" href="01-index.html">Home</a>
+        <a class="nav-choice" href="3A-dev.html">developer</a>
+        <a class="nav-choice" href="02-tutorialmenu.html">Tutorials</a>
+        <a class="nav-choice" href="3A-research.html" target="_blank">Research</a>
+      </div>
+      <button class="message-button" onclick="location.href='3A-contact.html'">Contact Details</button>
+    </div>
+
+    <!-----------------------------------------FIXED SIDEBAR---------------------------------->
+    <div class="fixed-container">
+
+      <div class="fixed-content" onclick="location.href='03-introduction.html'">Introduction</div>
+      <div class="fixed-content" onclick="location.href='04-variables.html'">Variables</div>
+      <div class="fixed-content" onclick="location.href='05-operators.html'">Operators</div>
+      <div class="fixed-content" onclick="location.href='06-counterprogram.html'">Counter Program</div>
+      <div class="fixed-content" onclick="location.href='07-functions.html'">Function</div>
+      <div class="fixed-content" onclick="location.href='08-numgenerator.html'">Number Generator</div>
+      <div class="fixed-content" onclick="location.href='09-ifelse.html'">If and Else</div>
+      <div class="fixed-content" onclick="location.href='10-check.html'">Checked Property</div>
+      <div class="fixed-content" onclick="location.href='11-switch.html'">Switch Case</div>
+      <div class="fixed-content" onclick="location.href='12-while.html'">While loops</div>
+      <div class="fixed-content" onclick="location.href='13-forloop.html'">For loops</div>
+      <div class="fixed-content" onclick="location.href='14-guessing.html'">Guessing Game</div>
+      <div class="fixed-content active" onclick="location.href='15-conversion.html'">Temperature Conversion</div>
+      <div class="fixed-content" onclick="location.href='16-arrays.html'">Arrays</div>
+      <div class="fixed-content" onclick="location.href='17-callback.html'">Callbacks</div>
+      <div class="fixed-content" onclick="location.href='18-methods.html'">Array Methods</div>
+      <div class="fixed-content" onclick="location.href='19-object.html'">Object</div>
+      <div class="fixed-content" onclick="location.href='20-this.html'">This Keyword</div>
+      <div class="fixed-content" onclick="location.href='21-dice.html'">Dice Roller</div>
+      <div class="fixed-content" onclick="location.href='22-date.html'">Date</div>
+      <div class="fixed-content" onclick="location.href='23-set.html'">SetTimeOut</div>
+      <div class="fixed-content" onclick="location.href='24-async.html'">Asynchronus Programming</div>
+      <div class="fixed-content" onclick="location.href='25-error.html'">Error Handling</div>
+      <div class="fixed-content" onclick="location.href='26-dom.html'">DOM</div>
+      <div class="fixed-content" onclick="location.href='27-selector.html'">Element Selector</div>
+      <div class="fixed-content" onclick="location.href='28-listener.html'">Event Listeners</div>
+      <div class="fixed-content" onclick="location.href='29-hide.html'">Hide and Show</div>
+      <div class="fixed-content" onclick="location.href='30-await.html'">Async and Await</div>
+      <div class="fixed-content" onclick="location.href='31-json.html'">JSON</div>
+      <div class="fixed-content" onclick="location.href='32-parse.html'">Stringify - Parse</div>
+    </div>
+
+    <!------------------------------------------MAIN CONTAINER---------------------------------->
+    <div class="main-container">
+      
+      <div class="title-container"><h1>TEMPERATURE CONVERSION</h1></div>
+      
+      <div class="project-container">
+        <p class="project-title">Temperature Conversion</p>
+        <input type="number" id="inputBox" class="input-box">
+        <div class="choice-container">
+          <div class="container">
+            <input type="radio" id="celciusToFahrenheit" name="userChoice">
+            <label for="celciusToFahrenheit">Celcius 👉 Fahrenheit</label>
+          </div>
+          <div class="container">
+            <input type="radio" id="fahrenheitToCelcius" name="userChoice">
+            <label for="fahrenheitToCelcius">Fahrenheit 👉 Celcius</label>
+          </div>
+        </div>
+        <button class="submit-button" id="submitBtn">Submit</button>
+        <div class="display" id="displayResult"></div>
+      </div>
+
+      <div class="first-phase-container">
+        <p class="txtlvl2"><span class="smallOrange-txt">Temperature Conversion: </span>This program is a temperature conversion. 
+          It can perform celsius to fahrenheit conversion and vice versa. There is no such amount of limit with this program and 
+          you can convert large amount of numbers. 
+        </p>
+      </div>
+
+      <div class="tutorial-container">
+        <p class="txtlvl1">BRIEF TUTORIAL AND GUIDE</p>
+        <p class=txtlvl2>&emsp;&emsp;&emsp;We can start by creating our HTML document file and creating necessary components, elements and containers for our 
+          project. You can follow these steps and include it in your HTML file and style it using CSS. If you want to view the CSS code for this 
+          project, you can visit the source code at the end of the page.
+        </p>
+        <div class="image-container">
+          <img src="codepng/15-conv1.png" alt="" class="small-img">
+        </div>
+
+        <p class="txtlvl2">&emsp;&emsp;&emsp;After creating your html file and styling your project using css, we can now move on and create functionalities of 
+          some elements in our file. Let us jump towards our JavaScript file and select the submit button, two(2) radio buttons and display result 
+          using element selector. After selecting necessary elements, create a function whenever we click the `submit button`.
+        </p>
+        <div class="image-container">
+          <img src="codepng/15-conv3.png" alt="" class="long-img">
+          <img src="codepng/15-conv4.png" alt="" class="big-img">
+        </div>
+        <p class="txtlvl2">After creating the function we need to start the program, we have to verify some information to proceed. Add and `if` 
+          statement inside your function to verify whether the input box is not null or has value and select the input box using element selector and 
+          store it in a constant variable. Add an `else` statement after your `if` statement.
+        </p>
+        <div class="image-container">
+          <img src="codepng/15-conv5.png" alt="" class="long-img">
+        </div>
+        <p class="txtlvl2">Then, create an `if`, `else if` and `else` statement inside your main `else` statement. Use an `if` and `else if` statement to verify whether 
+          the conversion method is celsius to fahrenheit or vice-versa. After evaluating which method will be used, we can now proceed to the 
+          development of the computation to get the right result using the default formula of computing celsius - fahrenheit and vice-versa and display it.
+        </p>
+        <div class="image-container">
+          <img src="codepng/15-conv6.png" alt="" class="long-img">
+        </div>
+        <div class="source-code-container">
+          <a href="15-sourcecode.html">View Source Code</a>
+        </div>
+      </div>
+      
+
+
+      <div class="button-container">
+        <button class="button-bottom" onclick="location.href='02-tutorialmenu.html'"><span class="button-top">Tutorial Menu</span></button>
+        <button class="tutorial-button" onclick="location.href='16-arrays.html'"><span class="tutorial-span">Next Tutorial</span></button>
+      </div>
+    </div>
+  </div>
+  <script src="scriptings/15-conversion.js"></script>
+</body>
+</html>

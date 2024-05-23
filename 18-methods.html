@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylings/1A-tutorial.css">
+  <script src="https://kit.fontawesome.com/e155b39f59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-----------------------------------------------HEADER---------------------------------------->
+    <div class="header">
+      <button class="tag-logo">
+        <span class="original-text">&nbsp;Javascript&nbsp;</span>
+        <span class="animated-text">&nbsp;Javascript&nbsp;</span>
+      </button>
+      <div class="navigation-container">
+        <a class="nav-choice" href="01-index.html">Home</a>
+        <a class="nav-choice" href="3A-dev.html">developer</a>
+        <a class="nav-choice" href="02-tutorialmenu.html">Tutorials</a>
+        <a class="nav-choice" href="3A-research.html" target="_blank">Research</a>
+      </div>
+      <button class="message-button" onclick="location.href='3A-contact.html'">Contact Details</button>
+    </div>
+
+    <!-----------------------------------------FIXED SIDEBAR---------------------------------->
+    <div class="fixed-container">
+      <div class="fixed-content" onclick="location.href='03-introduction.html'">Introduction</div>
+      <div class="fixed-content" onclick="location.href='04-variables.html'">Variables</div>
+      <div class="fixed-content" onclick="location.href='05-operators.html'">Operators</div>
+      <div class="fixed-content" onclick="location.href='06-counterprogram.html'">Counter Program</div>
+      <div class="fixed-content" onclick="location.href='07-functions.html'">Function</div>
+      <div class="fixed-content" onclick="location.href='08-numgenerator.html'">Number Generator</div>
+      <div class="fixed-content" onclick="location.href='09-ifelse.html'">If and Else</div>
+      <div class="fixed-content" onclick="location.href='10-check.html'">Checked Property</div>
+      <div class="fixed-content" onclick="location.href='11-switch.html'">Switch Case</div>
+      <div class="fixed-content" onclick="location.href='12-while.html'">While loops</div>
+      <div class="fixed-content" onclick="location.href='13-forloop.html'">For loops</div>
+      <div class="fixed-content" onclick="location.href='14-guessing.html'">Guessing Game</div>
+      <div class="fixed-content" onclick="location.href='15-conversion.html'">Temperature Conversion</div>
+      <div class="fixed-content" onclick="location.href='16-arrays.html'">Arrays</div>
+      <div class="fixed-content" onclick="location.href='17-callback.html'">Callbacks</div>
+      <div class="fixed-content active" onclick="location.href='18-methods.html'">Array Methods</div>
+      <div class="fixed-content" onclick="location.href='19-object.html'">Object</div>
+      <div class="fixed-content" onclick="location.href='20-this.html'">This Keyword</div>
+      <div class="fixed-content" onclick="location.href='21-dice.html'">Dice Roller</div>
+      <div class="fixed-content" onclick="location.href='22-date.html'">Date</div>
+      <div class="fixed-content" onclick="location.href='23-set.html'">SetTimeOut</div>
+      <div class="fixed-content" onclick="location.href='24-async.html'">Asynchronus Programming</div>
+      <div class="fixed-content" onclick="location.href='25-error.html'">Error Handling</div>
+      <div class="fixed-content" onclick="location.href='26-dom.html'">DOM</div>
+      <div class="fixed-content" onclick="location.href='27-selector.html'">Element Selector</div>
+      <div class="fixed-content" onclick="location.href='28-listener.html'">Event Listeners</div>
+      <div class="fixed-content" onclick="location.href='29-hide.html'">Hide and Show</div>
+      <div class="fixed-content" onclick="location.href='30-await.html'">Async and Await</div>
+      <div class="fixed-content" onclick="location.href='31-json.html'">JSON</div>
+      <div class="fixed-content" onclick="location.href='32-parse.html'">Stringify - Parse</div>
+    </div>
+
+    <!------------------------------------------MAIN CONTAINER---------------------------------->
+    <div class="main-container">
+      
+      <div class="title-container"><h1>ARRAY METHODS</h1></div>
+      
+      <div class="first-phase-container">
+        <p class="txtlvl1">What is Array Methods in JavaScript?</p>
+        <p class="txtlvl2">&emsp;&emsp;&emsp;JavaScript has built-in functions called array methods that can be used to manipulate 
+          arrays in a variety of ways. Arrays can be efficiently and readily manipulated, iterated over, and transformed with the
+           help of these methods. Among the JavaScript array methods that are frequently used are:
+        </p>
+        <p class="smallOrange-txt">Different Array Methods: </p>
+        <p class="txtlvl2"><span class="smallOrange-txt">1. push()</span>Adds one or more elements to the end of an array and returns the new length of the array.</p>
+        <div class="image-container">
+          <img src="codepng/18-meth1.png" class="long-img">
+        </div>
+        <p class="txtlvl2"><span class="smallOrange-txt">2. pop()</span>Removes the last element from an array and returns that element.</p>
+        <div class="image-container">
+          <img src="codepng/18-meth2.png" class="long-img">
+        </div>
+        <p class="txtlvl2"><span class="smallOrange-txt">3. shift()</span>Removes the first element from an array and returns that element.
+        </p>
+        <div class="image-container">
+          <img src="codepng/18-meth3.png" class="long-img">
+        </div>
+        <p class="txtlvl2"><span class="smallOrange-txt">4. unshift()</span>Removes the first element from an array and returns that element.</p>
+        <div class="image-container">
+          <img src="codepng/18-meth4.png" class="long-img">
+        </div>
+        <p class="txtlvl2"><span class="smallOrange-txt">5. concat()</span>Combines two or more arrays and returns a new array.</p>
+        <div class="image-container">
+          <img src="codepng/18-meth5.png" class="long-img">
+        </div>
+        <p class="txtlvl2"><span class="smallOrange-txt">6. slice()</span>Returns a shallow copy of a portion of an array into a new array.</p>
+        <div class="image-container">
+          <img src="codepng/18-meth6.png" class="long-img">
+        </div>
+        <p class="txtlvl2"><span class="smallOrange-txt">7. splice()</span> Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.</p>
+        <div class="image-container">
+          <img src="codepng/18-meth7.png" class="long-img">
+        </div>
+        <p class="txtlvl2"><span class="smallOrange-txt">8. forEach()</span>Executes a provided function once for each array element.</p>
+        <div class="image-container">
+          <img src="codepng/18-meth8.png" class="long-img">
+        </div>
+        <p class="txtlvl2"><span class="smallOrange-txt">9. map()</span> Creates a new array by calling a provided function on every element in the calling array.</p>
+        <div class="image-container">
+          <img src="codepng/18-meth9.png" class="long-img">
+        </div>
+        <p class="txtlvl2"><span class="smallOrange-txt">10. filter()</span>Creates a new array with all elements that pass the test implemented by the provided function.</p>
+        <div class="image-container">
+          <img src="codepng/18-meth10.png" class="long-img">
+        </div>
+        <p class="txtlvl2"><span class="smallOrange-txt">11. reduce()</span>Applies a function against an accumulator and each element in the array (from left to right) to 
+          reduce it to a single value.
+        </p>
+        <div class="image-container">
+          <img src="codepng/18-meth11.png" class="long-img">
+        </div>
+
+        <p class="txtlvl2">&emsp;&emsp;&emsp;These JavaScript array functions are useful tools for manipulating arrays. 
+          They offer succinct and effective methods for carrying out routine tasks on arrays, including as filtering, 
+          aggregation, transformation, and iteration. Being aware of these techniques and knowing when to apply them will 
+          help you become a more productive JavaScript developer.
+        </p>
+      </div>
+      
+
+      <div class="button-container">
+        <button class="button-bottom" onclick="location.href='02-tutorialmenu.html'"><span class="button-top">Tutorial Menu</span></button>
+        <button class="tutorial-button" onclick="location.href='19-object.html'"><span class="tutorial-span">Next Tutorial</span></button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

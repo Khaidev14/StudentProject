@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylings/1A-tutorial.css">
+  <script src="https://kit.fontawesome.com/e155b39f59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-----------------------------------------------HEADER---------------------------------------->
+    <div class="header">
+      <button class="tag-logo">
+        <span class="original-text">&nbsp;Javascript&nbsp;</span>
+        <span class="animated-text">&nbsp;Javascript&nbsp;</span>
+      </button>
+      <div class="navigation-container">
+        <a class="nav-choice" href="01-index.html">Home</a>
+        <a class="nav-choice" href="3A-dev.html">developer</a>
+        <a class="nav-choice" href="02-tutorialmenu.html">Tutorials</a>
+        <a class="nav-choice" href="3A-research.html" target="_blank">Research</a>
+      </div>
+      <button class="message-button" onclick="location.href='3A-contact.html'">Contact Details</button>
+    </div>
+
+    <!-----------------------------------------FIXED SIDEBAR---------------------------------->
+    <div class="fixed-container">
+      <div class="fixed-content" onclick="location.href='03-introduction.html'">Introduction</div>
+      <div class="fixed-content" onclick="location.href='04-variables.html'">Variables</div>
+      <div class="fixed-content" onclick="location.href='05-operators.html'">Operators</div>
+      <div class="fixed-content" onclick="location.href='06-counterprogram.html'">Counter Program</div>
+      <div class="fixed-content" onclick="location.href='07-functions.html'">Function</div>
+      <div class="fixed-content" onclick="location.href='08-numgenerator.html'">Number Generator</div>
+      <div class="fixed-content" onclick="location.href='09-ifelse.html'">If and Else</div>
+      <div class="fixed-content" onclick="location.href='10-check.html'">Checked Property</div>
+      <div class="fixed-content" onclick="location.href='11-switch.html'">Switch Case</div>
+      <div class="fixed-content active" onclick="location.href='12-while.html'">While loops</div>
+      <div class="fixed-content" onclick="location.href='13-forloop.html'">For loops</div>
+      <div class="fixed-content" onclick="location.href='14-guessing.html'">Guessing Game</div>
+      <div class="fixed-content" onclick="location.href='15-conversion.html'">Temperature Conversion</div>
+      <div class="fixed-content" onclick="location.href='16-arrays.html'">Arrays</div>
+      <div class="fixed-content" onclick="location.href='17-callback.html'">Callbacks</div>
+      <div class="fixed-content" onclick="location.href='18-methods.html'">Array Methods</div>
+      <div class="fixed-content" onclick="location.href='19-object.html'">Object</div>
+      <div class="fixed-content" onclick="location.href='20-this.html'">This Keyword</div>
+      <div class="fixed-content" onclick="location.href='21-dice.html'">Dice Roller</div>
+      <div class="fixed-content" onclick="location.href='22-date.html'">Date</div>
+      <div class="fixed-content" onclick="location.href='23-set.html'">SetTimeOut</div>
+      <div class="fixed-content" onclick="location.href='24-async.html'">Asynchronus Programming</div>
+      <div class="fixed-content" onclick="location.href='25-error.html'">Error Handling</div>
+      <div class="fixed-content" onclick="location.href='26-dom.html'">DOM</div>
+      <div class="fixed-content" onclick="location.href='27-selector.html'">Element Selector</div>
+      <div class="fixed-content" onclick="location.href='28-listener.html'">Event Listeners</div>
+      <div class="fixed-content" onclick="location.href='29-hide.html'">Hide and Show</div>
+      <div class="fixed-content" onclick="location.href='30-await.html'">Async and Await</div>
+      <div class="fixed-content" onclick="location.href='31-json.html'">JSON</div>
+      <div class="fixed-content" onclick="location.href='32-parse.html'">Stringify - Parse</div>
+    </div>
+
+    <!------------------------------------------MAIN CONTAINER---------------------------------->
+    <div class="main-container">
+      
+      <div class="title-container"><h1>WHILE LOOPS</h1></div>
+      
+      <div class="first-phase-container">
+        <p class="txtlvl1">What is While Loops? </p>
+        <p class="txtlvl2">&emsp;&emsp;&emsp;While loops in JavScript is a control flow of statement that allows you to run and execute codes repeatedly 
+          as long as the specified condition/s are still considered to be true.
+        </p>
+        <p class="smallOrange-txt">Basic Syntax of While loops: </p>
+        <div class="image-container">
+          <img src="codepng/12-while1.png" class="big-img">
+        </div>
+        <p class="txtlvl2">In this particular example, the word <span class="smallOrange-txt">condition</span> is an expression that needs 
+          to be evaluated before starting the execution. If the given condition were identified as true, the execution of the code inside while 
+          loop will start.
+        </p>
+
+        <p class="txtlvl2">For example, if you want to print in the console the number 1 to 5 using while loop: </p>
+        <div class="image-container">
+          <img src="codepng/12-while2.png" class="big-img">
+          <p class="txtlvl2">In this example, the variable `i` is starts and equals to 1 and the condition is `i &#x003C;=5`. The condition will be checked 
+            first before executing the block of code inside the while loop. It means, as long as `i` is less than or equal to 10, the loop will continue 
+            its purpose and incrementing every turn before checking the condition again. 
+          </p>
+        </div>
+        <p class="txtlvl1">What to do when using While loops? </p>
+        <p class="txtlvl2">&emsp;&emsp;&emsp;When using a while loops, we have to be cautious most of the time. While loops can create infinite loop that doesn't 
+          have an exit. Here are some tips you should save while working with while loops to avoide failures and troubles: 
+        </p>
+        <p class="txtlvl2"><span class="smallOrange-txt">Infinite loops: </span>Be cautious when using while loops to avoid creating infinite 
+          loops, where the condition never becomes false. 
+          Infinite loops can cause your program to hang or become unresponsive.
+        </p>
+        <p class="txtlvl2"><span class="smallOrange-txt">Variable Initialization: </span>
+          It's essential to initialize any variables used in the loop condition before entering the loop. 
+          Otherwise, you might encounter unexpected behavior or errors.
+        </p>
+        <p class="txtlvl2"><span class="smallOrange-txt">Exit Condition: </span>
+          Ensure that the condition used in the while loop will eventually become false to avoid infinite loops. Usually, the loop variable or 
+          variables involved in the condition should be updated within the loop body to meet the exit condition.
+        </p>
+        <p class="txtlvl2"><span class="smallOrange-txt">Loop Control Statements: </span>
+          Inside a while loop, you can use loop control statements like break to exit the loop prematurely or continue to skip the current 
+          iteration and proceed to the next one.
+        </p>
+        
+      </div>
+      
+
+      <div class="button-container">
+        <button class="button-bottom" onclick="location.href='02-tutorialmenu.html'"><span class="button-top">Tutorial Menu</span></button>
+        <button class="tutorial-button" onclick="location.href='13-forloop.html'"><span class="tutorial-span">Next Tutorial</span></button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

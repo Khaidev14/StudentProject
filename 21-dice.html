@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylings/21-dice.css">
+  <script src="https://kit.fontawesome.com/e155b39f59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-----------------------------------------------HEADER---------------------------------------->
+    <div class="header">
+      <button class="tag-logo">
+        <span class="original-text">&nbsp;Javascript&nbsp;</span>
+        <span class="animated-text">&nbsp;Javascript&nbsp;</span>
+      </button>
+      <div class="navigation-container">
+        <a class="nav-choice" href="01-index.html">Home</a>
+        <a class="nav-choice" href="3A-dev.html">developer</a>
+        <a class="nav-choice" href="02-tutorialmenu.html">Tutorials</a>
+        <a class="nav-choice" href="3A-research.html" target="_blank">Research</a>
+      </div>
+      <button class="message-button" onclick="location.href='3A-contact.html'">Contact Details</button>
+    </div>
+
+    <!-----------------------------------------FIXED SIDEBAR---------------------------------->
+    <div class="fixed-container">
+
+      <div class="fixed-content" onclick="location.href='03-introduction.html'">Introduction</div>
+      <div class="fixed-content" onclick="location.href='04-variables.html'">Variables</div>
+      <div class="fixed-content" onclick="location.href='05-operators.html'">Operators</div>
+      <div class="fixed-content" onclick="location.href='06-counterprogram.html'">Counter Program</div>
+      <div class="fixed-content" onclick="location.href='07-functions.html'">Function</div>
+      <div class="fixed-content" onclick="location.href='08-numgenerator.html'">Number Generator</div>
+      <div class="fixed-content" onclick="location.href='09-ifelse.html'">If and Else</div>
+      <div class="fixed-content" onclick="location.href='10-check.html'">Checked Property</div>
+      <div class="fixed-content" onclick="location.href='11-switch.html'">Switch Case</div>
+      <div class="fixed-content" onclick="location.href='12-while.html'">While loops</div>
+      <div class="fixed-content" onclick="location.href='13-forloop.html'">For loops</div>
+      <div class="fixed-content" onclick="location.href='14-guessing.html'">Guessing Game</div>
+      <div class="fixed-content" onclick="location.href='15-conversion.html'">Temperature Conversion</div>
+      <div class="fixed-content" onclick="location.href='16-arrays.html'">Arrays</div>
+      <div class="fixed-content" onclick="location.href='17-callback.html'">Callbacks</div>
+      <div class="fixed-content" onclick="location.href='18-methods.html'">Array Methods</div>
+      <div class="fixed-content" onclick="location.href='19-object.html'">Object</div>
+      <div class="fixed-content" onclick="location.href='20-this.html'">This Keyword</div>
+      <div class="fixed-content active" onclick="location.href='21-dice.html'">Dice Roller</div>
+      <div class="fixed-content" onclick="location.href='22-date.html'">Date</div>
+      <div class="fixed-content" onclick="location.href='23-set.html'">SetTimeOut</div>
+      <div class="fixed-content" onclick="location.href='24-async.html'">Asynchronus Programming</div>
+      <div class="fixed-content" onclick="location.href='25-error.html'">Error Handling</div>
+      <div class="fixed-content" onclick="location.href='26-dom.html'">DOM</div>
+      <div class="fixed-content" onclick="location.href='27-selector.html'">Element Selector</div>
+      <div class="fixed-content" onclick="location.href='28-listener.html'">Event Listeners</div>
+      <div class="fixed-content" onclick="location.href='29-hide.html'">Hide and Show</div>
+      <div class="fixed-content" onclick="location.href='30-await.html'">Async and Await</div>
+      <div class="fixed-content" onclick="location.href='31-json.html'">JSON</div>
+      <div class="fixed-content" onclick="location.href='32-parse.html'">Stringify - Parse</div>
+    </div>
+
+    <!------------------------------------------MAIN CONTAINER---------------------------------->
+    <div class="main-container">
+      
+      <div class="title-container"><h1>DICE ROLLER</h1></div>
+      
+      <div class="project-container">
+        <p class="title">Dice Roller</p>
+        <div class="input-container">
+          <label for="inputField" >Enter Number of Dice: </label>
+          <input type="number" min="0" max="20" id="inputField">
+        </div>
+        <button class="submit-button">Roll Dice</button>
+        <div id="displayDiceNum"></div>
+        <div id="displayDiceImg"></div>
+      </div>
+
+      <div class="first-phase-container">
+        <p class="txtlvl1">What is Dice Roller Program? </p>
+        <p class="txtlvl2">&emsp;&emsp;&emsp;A straightforward program called the Dice Roller Program simulates rolling dice, which are 
+          frequently used in board games like Monopoly and tabletop games like Dungeons & Dragons (D&D). 
+          It gives customers an easy way to simulate rolling real dice by generating random numbers within 
+          predetermined ranges.
+        </p>
+
+        <p class="smallOrange-txt">Code Overview:</p>
+        <p class=txtlvl2>1. The user input, result display, and dice rolling are all handled by functions in the 
+          JavaScript code of the program.
+        </p>
+        <p class="txtlvl2">
+          2. The Math.random() function is used to create randomized integers, which are then scaled to fit the range 
+          of each type of die.
+        </p>
+        <p class="txtlvl2">
+          3. HTML is used to develop the user interface, while CSS is used to design it to make 
+          it aesthetically pleasing and easy to use.
+        </p>
+      </div>
+
+      <div class="tutorial-container">
+        <p class="txtlvl1">BRIEF TUTORIAL AND GUIDE</p>
+        <p class="txtlvl2">&emsp;&emsp;&emsp;First, build your interface using html and style it using css. To give you 
+          an idea what elements you should include, here are the elements written inside the body of my HTML file.
+        </p>
+        <div class="image-container">
+          <img src="codepng/21-dice1.png" class="long-img">
+        </div>
+
+        <p class="txtlvl2">After building your interface and styling it using css. We can now move on to 
+          our JavaScript file.
+        </p>
+
+        <p class="txtlvl2">
+          &emsp;&emsp;&emsp;Using element selector, grab the submit button in your html file and create an event listener 
+          to give the button a command. The event listener will listen to any event performed by the user such as 
+          clicking, pressing keys, mouse hovering, mouse over and etc. By doing this, we are teling that whenever we press 
+          the button, we should perform a specific function. You can perform grabbing by doing this:
+        </p>
+        <div class="image-container">
+          <img src="codepng/21-dice2.png" class="long-img">
+        </div>
+
+        <p class="txtlvl2">Inside your event listner, grab the two(2) division element in your html file. Those divisions will 
+          be used to display our results later.
+        </p>
+        <div class="image-container">
+          <img src="codepng/21-dice3.png" class="long-img">
+        </div>
+
+        <p class="txtlvl2">After grabbing the two division elements, we can now start grabbing the input field and peform a random 
+          number generator using this particular code. <br><br>
+          First, grab the input field of your html file and store its value to another variable. After importing the input field, 
+          create two(2) arrays, so that we can store the number result and the dice image. <br><br>
+          Create a for loop that will generate a number using Math.random() depending on what number does the user submitted in 
+          the input field. Then store the random generated number in diceArray using `.push()` and store the image of your dice using `.push()`;
+        </p>
+        <div class="image-container">
+          <img src="codepng/21-dice4.png" class="long-img">
+        </div>
+
+        <p class="txtlvl2">After the for loop, add this code to display your result.</p>
+        <div class="image-container">
+          <img src="codepng/21-dice5.png" class="long-img">
+        </div>
+
+        <p class="txtlvl2">If you want to see a precise and more basic code for this lesson (DICE ROLLER), view the source code below. </p>
+        <div class="source-code-container">
+          <a href="21-sourcecode.html">View Source Code</a>
+        </div>
+      </div>
+      
+
+
+      <div class="button-container">
+        <button class="button-bottom" onclick="location.href='02-tutorialmenu.html'"><span class="button-top">Tutorial Menu</span></button>
+        <button class="tutorial-button" onclick="location.href='22-date.html'"><span class="tutorial-span">Next Tutorial</span></button>
+      </div>
+    </div>
+  </div>
+  <script src="scriptings/21-dice.js"></script>
+</body>
+</html>

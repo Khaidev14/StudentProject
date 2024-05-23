@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylings/14-guessing.css">
+  <script src="https://kit.fontawesome.com/e155b39f59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-----------------------------------------------HEADER---------------------------------------->
+    <div class="header">
+      <button class="tag-logo">
+        <span class="original-text">&nbsp;Javascript&nbsp;</span>
+        <span class="animated-text">&nbsp;Javascript&nbsp;</span>
+      </button>
+      <div class="navigation-container">
+        <a class="nav-choice" href="01-index.html">Home</a>
+        <a class="nav-choice" href="3A-dev.html">developer</a>
+        <a class="nav-choice" href="02-tutorialmenu.html">Tutorials</a>
+        <a class="nav-choice" href="3A-research.html" target="_blank">Research</a>
+      </div>
+      <button class="message-button" onclick="location.href='3A-contact.html'">Contact Details</button>
+    </div>
+
+    <!-----------------------------------------FIXED SIDEBAR---------------------------------->
+    <div class="fixed-container">
+
+      <div class="fixed-content" onclick="location.href='03-introduction.html'">Introduction</div>
+      <div class="fixed-content" onclick="location.href='04-variables.html'">Variables</div>
+      <div class="fixed-content" onclick="location.href='05-operators.html'">Operators</div>
+      <div class="fixed-content" onclick="location.href='06-counterprogram.html'">Counter Program</div>
+      <div class="fixed-content" onclick="location.href='07-functions.html'">Function</div>
+      <div class="fixed-content" onclick="location.href='08-numgenerator.html'">Number Generator</div>
+      <div class="fixed-content" onclick="location.href='09-ifelse.html'">If and Else</div>
+      <div class="fixed-content" onclick="location.href='10-check.html'">Checked Property</div>
+      <div class="fixed-content" onclick="location.href='11-switch.html'">Switch Case</div>
+      <div class="fixed-content" onclick="location.href='12-while.html'">While loops</div>
+      <div class="fixed-content" onclick="location.href='13-forloop.html'">For loops</div>
+      <div class="fixed-content active" onclick="location.href='14-guessing.html'">Guessing Game</div>
+      <div class="fixed-content" onclick="location.href='15-conversion.html'">Temperature Conversion</div>
+      <div class="fixed-content" onclick="location.href='16-arrays.html'">Arrays</div>
+      <div class="fixed-content" onclick="location.href='17-callback.html'">Callbacks</div>
+      <div class="fixed-content" onclick="location.href='18-methods.html'">Array Methods</div>
+      <div class="fixed-content" onclick="location.href='19-object.html'">Object</div>
+      <div class="fixed-content" onclick="location.href='20-this.html'">This Keyword</div>
+      <div class="fixed-content" onclick="location.href='21-dice.html'">Dice Roller</div>
+      <div class="fixed-content" onclick="location.href='22-date.html'">Date</div>
+      <div class="fixed-content" onclick="location.href='23-set.html'">SetTimeOut</div>
+      <div class="fixed-content" onclick="location.href='24-async.html'">Asynchronus Programming</div>
+      <div class="fixed-content" onclick="location.href='25-error.html'">Error Handling</div>
+      <div class="fixed-content" onclick="location.href='26-dom.html'">DOM</div>
+      <div class="fixed-content" onclick="location.href='27-selector.html'">Element Selector</div>
+      <div class="fixed-content" onclick="location.href='28-listener.html'">Event Listeners</div>
+      <div class="fixed-content" onclick="location.href='29-hide.html'">Hide and Show</div>
+      <div class="fixed-content" onclick="location.href='30-await.html'">Async and Await</div>
+      <div class="fixed-content" onclick="location.href='31-json.html'">JSON</div>
+      <div class="fixed-content" onclick="location.href='32-parse.html'">Stringify - Parse</div>
+    </div>
+
+    <!------------------------------------------MAIN CONTAINER---------------------------------->
+    <div class="main-container">
+      
+      <div class="title-container"><h1>RANDOM NUMBER GENERATOR</h1></div>
+      
+      <div class="project-container">
+        <p><span class="smallOrange-txt">Instruction: </span>Generate a secret number and guess it!</p>
+        <input type="number" min="1" max="50" id="chosenNum">
+        <button class="generateBtn" id="generateButton">Generate Secret Number</button>
+        <button class="submitButton" id="submitBtn">Submit Button</button>
+        <p class="hideElement" id="resultDisplay"></p>
+      </div>
+
+      <div class="first-phase-container">
+        <p class="txtlvl2"><span class="smallOrange-txt">Random Number Generator: </span> Random number generator is a simple program created 
+          that will prompt the user to generate the a random number and guess it with the help of small clues given by the simple project. The 
+          number range in <span class="smallOrange-txt">Random Number Generator </span> is 1 to 50. The minimun value and the maximum 
+          value has already been set by default. 
+        </p>
+        <p class="txtlvl2"><span class="smallOrange-txt">Purpose: </span>This is to display and utilize our skills using the previous lessons we 
+        conducted such as if and else statements, element selectors and variable storing.
+        </p>
+
+        <p class="txtlvl2"><span class="smallOrange-txt">Note: </span>
+        To further Enhance the simplicity of this lesson, I prepared a project we can discuss similar to this one. In this project, we will be discussing 
+        a much more basic number guessing game where we can prompt the user to input a number value using window prompt and displaying the result in 
+        your console.
+        </p>
+      </div>
+
+      <div class="tutorial-container">
+        <p class="txtlvl1">BRIEF TUTORIAL AND GUIDE</p>
+        <P class="txtlvl2">In this tutorial, we will be covering some of the lessons we previously discussed. Here is the overall interface 
+          of our project in this course: 
+        </P>
+        <div class="image-container">
+          <img src="codepng/14-guessing1.png" class="small-img">
+          <img src="codepng/14-guessing2.png" class="small-img">
+        </div>
+        <p class="smallOrange-txt">Let's start by discussing the first step!</p>
+        <p class="txtlvl2">First, create your HTML file and its basic structure.</p>
+        <div class="image-container">
+          <img src="codepng/14-guessing3.png" class="small-img">
+        </div>
+        <p class="txtlvl2">Next, declare all necessary variables you need such as the minimun number, maximum number and the number of attempts
+           to that the user committed. After declaring, it is now time to declare the variable `answer` which will hold the secret number to be 
+           guessed.
+        </p>
+        <div class="image-container">
+          <img src="codepng/14-guessing4.png" class="long-img">
+        </div>
+        <p class="txtlvl2">After following the codes given and declaring all the variables needed, we can now proceed to the creation of while loop 
+          that will determine whether the program shall continue or stop depending on a specific situation. Then, prompt the user to enter their guess and 
+          store it in `guess` variable - declare the `guess` variable as number. 
+        </p>
+        <div class="image-container">
+          <img src="codepng/14-guessing5.png" class="long-img">
+        </div>
+        <p class="txtlvl2">After that, inside your while loop, add an `if` statement that will check if the `guess` variable is not a number. If 
+          the guess variable isn't a number, we will be prompting the user again by saying "Please enter a valid number". Add this code inside your while loop.
+        </p>
+        <div class="image-container">
+          <img src="codepng/14-guessing6.png" alt="" class="long-img">
+        </div>
+        <p class="txtlvl2">
+          After inserting adding an `if` statement, add an else if statement below it to check if the guess of the user is outside the range of 
+          minimun and maximum variable. 
+        </p>
+        <div class="image-container">
+          <img src="codepng/14-guessing7.png" alt="" class="long-img">
+        </div>
+        <p class="txtlvl2">
+          lastly, perform nested if and else statement by adding if and else inside your else statement that will check whether the guess is 
+          too high, too low or correct.
+        </p>
+        <div class="image-container">
+          <img src="codepng/14-guessing8.png" alt="" class="long-img">
+        </div>
+        <p class="txtlvl2">Visit the source code link below to get a view of the entire code in this project.</p>
+        <div class="source-code-container">
+          <a href="14-sourcecode.html">View Source Code</a>
+        </div>
+      </div>
+      
+
+
+      <div class="button-container">
+        <button class="button-bottom" onclick="location.href='02-tutorialmenu.html'"><span class="button-top">Tutorial Menu</span></button>
+        <button class="tutorial-button" onclick="location.href='15-conversion.html'"><span class="tutorial-span">Next Tutorial</span></button>
+      </div>
+    </div>
+  </div>
+  <script src="scriptings/14-guessing.js"></script>
+</body>
+</html>
