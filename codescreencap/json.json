@@ -1,0 +1,10 @@
+{
+  "name": "Khaiden",
+  "age": 25,
+  "isStudent": true,
+  "courses": ["Information Tech", "Software Engineer"],
+  "address": {
+    "street": "123 Uptown",
+    "city": "New York"
+  }
+}
