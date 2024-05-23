@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylings/1A-tutorial.css">
+  <script src="https://kit.fontawesome.com/e155b39f59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-----------------------------------------------HEADER---------------------------------------->
+    <div class="header">
+      <button class="tag-logo">
+        <span class="original-text">&nbsp;Javascript&nbsp;</span>
+        <span class="animated-text">&nbsp;Javascript&nbsp;</span>
+      </button>
+      <div class="navigation-container">
+        <a class="nav-choice" href="01-index.html">Home</a>
+        <a class="nav-choice" href="3A-dev.html">developer</a>
+        <a class="nav-choice" href="02-tutorialmenu.html">Tutorials</a>
+        <a class="nav-choice" href="3A-research.html" target="_blank">Research</a>
+      </div>
+      <button class="message-button" onclick="location.href='3A-contact.html'">Contact Details</button>
+    </div>
+
+    <!-----------------------------------------FIXED SIDEBAR---------------------------------->
+    <div class="fixed-container">
+      <div class="fixed-content" onclick="location.href='03-introduction.html'">Introduction</div>
+      <div class="fixed-content active" onclick="location.href='04-variables.html'">Variables</div>
+      <div class="fixed-content" onclick="location.href='05-operators.html'">Operators</div>
+      <div class="fixed-content" onclick="location.href='06-counterprogram.html'">Counter Program</div>
+      <div class="fixed-content" onclick="location.href='07-functions.html'">Function</div>
+      <div class="fixed-content" onclick="location.href='08-numgenerator.html'">Number Generator</div>
+      <div class="fixed-content" onclick="location.href='09-ifelse.html'">If and Else</div>
+      <div class="fixed-content" onclick="location.href='10-check.html'">Checked Property</div>
+      <div class="fixed-content" onclick="location.href='11-switch.html'">Switch Case</div>
+      <div class="fixed-content" onclick="location.href='12-while.html'">While loops</div>
+      <div class="fixed-content" onclick="location.href='13-forloop.html'">For loops</div>
+      <div class="fixed-content" onclick="location.href='14-guessing.html'">Guessing Game</div>
+      <div class="fixed-content" onclick="location.href='15-conversion.html'">Temperature Conversion</div>
+      <div class="fixed-content" onclick="location.href='16-arrays.html'">Arrays</div>
+      <div class="fixed-content" onclick="location.href='17-callback.html'">Callbacks</div>
+      <div class="fixed-content" onclick="location.href='18-methods.html'">Array Methods</div>
+      <div class="fixed-content" onclick="location.href='19-object.html'">Object</div>
+      <div class="fixed-content" onclick="location.href='20-this.html'">This Keyword</div>
+      <div class="fixed-content" onclick="location.href='21-dice.html'">Dice Roller</div>
+      <div class="fixed-content" onclick="location.href='22-date.html'">Date</div>
+      <div class="fixed-content" onclick="location.href='23-set.html'">SetTimeOut</div>
+      <div class="fixed-content" onclick="location.href='24-async.html'">Asynchronus Programming</div>
+      <div class="fixed-content" onclick="location.href='25-error.html'">Error Handling</div>
+      <div class="fixed-content" onclick="location.href='26-dom.html'">DOM</div>
+      <div class="fixed-content" onclick="location.href='27-selector.html'">Element Selector</div>
+      <div class="fixed-content" onclick="location.href='28-listener.html'">Event Listeners</div>
+      <div class="fixed-content" onclick="location.href='29-hide.html'">Hide and Show</div>
+      <div class="fixed-content" onclick="location.href='30-await.html'">Async and Await</div>
+      <div class="fixed-content" onclick="location.href='31-json.html'">JSON</div>
+      <div class="fixed-content" onclick="location.href='32-parse.html'">Stringify - Parse</div>
+    </div>
+
+    <!------------------------------------------MAIN CONTAINER---------------------------------->
+    <div class="main-container">
+      
+      <div class="title-container"><h1>VARIABLES</h1></div>
+      
+      <div class="first-phase-container">
+        <p class="txtlvl1">What is Variable?</p>
+        <p class="txtlvl2">&emsp;&emsp;&emsp;In JavaScript, a variable is a storage or container that contains a specific whether be it an integer, string, characters or even dates. 
+          It is like a storage with a name that you can manipulate and change over a specific course of time. It is one of the most essential parts of 
+          programming as it is used to manipulate data inside your system.
+        </p>
+        <p class="txtlvl2">&emsp;&emsp;&emsp;In JavaScript, there are three(3) keywords you can use to store a value and create a variable. We can create variable using `var`, 
+          `let` and `const`. But, the keyword `var` is considered to be outdated and may cause problems that you may encounter as you progress coding 
+          your own website. Therefore, WOJA will only be using `let` and `const` to avoid unecessary errors for beginners.
+        </p>
+        <p class="smallOrange-txt">Here are some basic examples on how to create a variable in HTML using LET keyword: </p>
+        <div class="image-container">
+          <img class="big-img" src="codepng/01-variable1.png" alt="variable1">
+          <img class="small-img" src="codepng/01-variable3.png" alt="variable3">
+        </div>
+        <p class="smallOrange-txt">Now, const variable is used for variables which values cannot be changed once it's been already 
+          declared. <br> Here are some examples:  </p>
+        <div class="image-container">
+          <img class="small-img" src="codepng/01-variable2.png" alt="variable2">
+        </div>
+        <p class="txtlvl2">This const Variables cannot be changed later in your coding once it's been set and declared. If you want to change the value of 
+          your variables, use LET keyword instead of CONST.
+        </p>
+        <p class="txtlvl2">Variables in JavaScript can store values with types of data that includes, numbers, strings, objects, arrays and functions. <br> 
+        For example: 
+        </p>
+        <div class="image-container">
+          <img class="long-img" src="codepng/01-variable4.png" alt="variable4">
+        </div>
+        <p class="txtlvl2">You can also change the value of LET variable later if you want. <br>For example: </p>
+        <div class="image-container">
+          <img class="long-img" src="codepng/01-variable5.png" alt="variable4">
+        </div>
+      </div>
+      <div class="source-code-container">
+        <a href="04-sourcecode.html">View Source Code</a>
+      </div>
+
+      <div class="button-container">
+        <button class="button-bottom" onclick="location.href='02-tutorialmenu.html'"><span class="button-top">Tutorial Menu</span></button>
+        <button class="tutorial-button" onclick="location.href='05-operators.html'"><span class="tutorial-span">Next Tutorial</span></button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

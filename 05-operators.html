@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylings/1A-tutorial.css">
+  <script src="https://kit.fontawesome.com/e155b39f59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-----------------------------------------------HEADER---------------------------------------->
+    <div class="header">
+      <button class="tag-logo">
+        <span class="original-text">&nbsp;Javascript&nbsp;</span>
+        <span class="animated-text">&nbsp;Javascript&nbsp;</span>
+      </button>
+      <div class="navigation-container">
+        <a class="nav-choice" href="01-index.html">Home</a>
+        <a class="nav-choice" href="3A-dev.html">developer</a>
+        <a class="nav-choice" href="02-tutorialmenu.html">Tutorials</a>
+        <a class="nav-choice" href="3A-research.html" target="_blank">Research</a>
+      </div>
+      <button class="message-button" onclick="location.href='3A-contact.html'">Contact Details</button>
+    </div>
+
+    <!-----------------------------------------FIXED SIDEBAR---------------------------------->
+    <div class="fixed-container">
+      <div class="fixed-content" onclick="location.href='03-introduction.html'">Introduction</div>
+      <div class="fixed-content" onclick="location.href='04-variables.html'">Variables</div>
+      <div class="fixed-content active" onclick="location.href='05-operators.html'">Operators</div>
+      <div class="fixed-content" onclick="location.href='06-counterprogram.html'">Counter Program</div>
+      <div class="fixed-content" onclick="location.href='07-functions.html'">Function</div>
+      <div class="fixed-content" onclick="location.href='08-numgenerator.html'">Number Generator</div>
+      <div class="fixed-content" onclick="location.href='09-ifelse.html'">If and Else</div>
+      <div class="fixed-content" onclick="location.href='10-check.html'">Checked Property</div>
+      <div class="fixed-content" onclick="location.href='11-switch.html'">Switch Case</div>
+      <div class="fixed-content" onclick="location.href='12-while.html'">While loops</div>
+      <div class="fixed-content" onclick="location.href='13-forloop.html'">For loops</div>
+      <div class="fixed-content" onclick="location.href='14-guessing.html'">Guessing Game</div>
+      <div class="fixed-content" onclick="location.href='15-conversion.html'">Temperature Conversion</div>
+      <div class="fixed-content" onclick="location.href='16-arrays.html'">Arrays</div>
+      <div class="fixed-content" onclick="location.href='17-callback.html'">Callbacks</div>
+      <div class="fixed-content" onclick="location.href='18-methods.html'">Array Methods</div>
+      <div class="fixed-content" onclick="location.href='19-object.html'">Object</div>
+      <div class="fixed-content" onclick="location.href='20-this.html'">This Keyword</div>
+      <div class="fixed-content" onclick="location.href='21-dice.html'">Dice Roller</div>
+      <div class="fixed-content" onclick="location.href='22-date.html'">Date</div>
+      <div class="fixed-content" onclick="location.href='23-set.html'">SetTimeOut</div>
+      <div class="fixed-content" onclick="location.href='24-async.html'">Asynchronus Programming</div>
+      <div class="fixed-content" onclick="location.href='25-error.html'">Error Handling</div>
+      <div class="fixed-content" onclick="location.href='26-dom.html'">DOM</div>
+      <div class="fixed-content" onclick="location.href='27-selector.html'">Element Selector</div>
+      <div class="fixed-content" onclick="location.href='28-listener.html'">Event Listeners</div>
+      <div class="fixed-content" onclick="location.href='29-hide.html'">Hide and Show</div>
+      <div class="fixed-content" onclick="location.href='30-await.html'">Async and Await</div>
+      <div class="fixed-content" onclick="location.href='31-json.html'">JSON</div>
+      <div class="fixed-content" onclick="location.href='32-parse.html'">Stringify - Parse</div>
+    </div>
+
+    <!------------------------------------------MAIN CONTAINER---------------------------------->
+    <div class="main-container">
+      
+      <div class="title-container"><h1>OPERATORS</h1></div>
+      
+      <div class="first-phase-container">
+        <p class="txtlvl1">What is Operators in JavaScript? </p>
+        <p class="txtlvl2">&emsp;&emsp;&emsp;In JavaScript, an operator is a symbol that performs an operation on one or more operands. 
+          Operators allow you to manipulate variables and values in various ways, 
+          such as arithmetic operations, comparison operations, logical operations, assignment operations, and more.
+          In this particular lesson, we will be discussing four(4) most groups of most often used operators in JavaScript.
+        </p>
+        <p class="smallOrange-txt">Arithmetic Operators</p>
+        <p class="txtlvl3">Perform arithmetic operations like addition, subtraction, multiplication, division, 
+          etc. Example: +, -, *, /, % (modulo), ++ (increment), -- (decrement).
+        </p>
+        <div class="image-container" >
+          <img src="codepng/02-operator1.png" class="small-img">
+          <img src="codepng/02-operator2.png" class="small-img">
+        </div>
+
+        <p class="smallOrange-txt">Comparison Operators</p>
+        <p class="txtlvl3">&emsp;&emsp;&emsp;Used to 
+          compare values. Example: == (equality), === 
+          (strict equality), != (inequality), !== (strict inequality), >, <, >=, <=.
+        </p>
+        <div class="image-container">
+          <img src="codepng/02-operator3.png" class="small-img">
+        </div>
+
+        <p class="smallOrange-txt">Logical Operators</p>
+        <p class="txtlvl3">&emsp;&emsp;&emsp;Used to perform logical operations on values. Example: && (logical AND), 
+          || (logical OR), ! (logical NOT).
+        <div class="image-container">
+          <img src="codepng/02-operator4.png" class="big-img">
+        </div>
+
+        <p class="smallOrange-txt">Assignment Operators</p>
+        <p class="txtlvl3">&emsp;&emsp;&emsp;Used to assign values to variables. Example: =, +=, -=, *=, /=, %=, **=.
+        <div class="image-container">
+          <img src="codepng/02-operator7.png" class="long-img">
+          <img src="codepng/02-operator5.png" class="long-img">
+        </div>
+
+        <p class="txtlvl1">What is Operator Precedence? </p>
+        <p class="txtlvl2">
+          &emsp;&emsp;&emsp;Operator precedence determines the order in which operators are evaluated within an expression. For example, 
+          multiplication has a higher precedence than addition, so 2 + 3 * 4 evaluates to 14. Associativity 
+          determines the order in which operators of the same 
+          precedence are evaluated. Most operators in JavaScript are left-to-right associative, 
+          meaning they are evaluated from left to right. For example, 5 - 3 - 1
+           evaluates as (5 - 3) - 1 because the - operator is left-associative.
+        </p>
+        
+        <p class="smallOrange-txt">&emsp;&emsp;&emsp;Now that you already know how operators work, we can now move on creating some simple projects. If you are 
+          ready, please move on to the next tutorial on how to create simple counter program. Let's get started!
+        </p>
+
+
+      </div>
+      
+
+
+      <div class="button-container">
+        <button class="button-bottom" onclick="location.href='02-tutorialmenu.html'"><span class="button-top">Tutorial Menu</span></button>
+        <button class="tutorial-button" onclick="location.href='06-counterprogram.html'"><span class="tutorial-span">Next Tutorial</span></button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

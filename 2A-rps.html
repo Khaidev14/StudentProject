@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors | Khaidev</title>
+  <link rel="stylesheet" href="stylings/2A-rps.css">
+</head>
+<body>
+  <div class="container">
+    <p class="title">Rock - Paper - Scissors</p>
+    <div class="choice-container">
+      <button onclick="playGame('rock')">👊</button>
+      <button onclick="playGame('paper')">🖐</button>
+      <button onclick="playGame('scissors')">✌</button>
+    </div>
+    <div class="choice-division">
+      <div class="player-div">
+        <p>PLAYER</p>
+        <p id="user-choice"></p>
+      </div>
+      <div class="computer-div">
+        <p>COMPUTER</p>
+        <p id="computer-choice"></p>
+      </div>
+    </div>
+    <div class="result-division">
+      <p class="result-display"></p>
+    </div>
+    <div class="score-division">
+      <p class="player-score">Player Score: <span class="p-score">0</span></p>
+      <p class="computer-score">Computer Score: <span class="c-score">0</span></p>
+    </div>
+  </div>
+
+  <script src="scriptings/2A-rps.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylings/06-counterprogram.css">
+  <script src="https://kit.fontawesome.com/e155b39f59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-----------------------------------------------HEADER---------------------------------------->
+    <div class="header">
+      <button class="tag-logo">
+        <span class="original-text">&nbsp;Javascript&nbsp;</span>
+        <span class="animated-text">&nbsp;Javascript&nbsp;</span>
+      </button>
+      <div class="navigation-container">
+        <a class="nav-choice" href="01-index.html">Home</a>
+        <a class="nav-choice" href="3A-dev.html">developer</a>
+        <a class="nav-choice" href="02-tutorialmenu.html">Tutorials</a>
+        <a class="nav-choice" href="3A-research.html" target="_blank">Research</a>
+      </div>
+      <button class="message-button" onclick="location.href='3A-contact.html'">Contact Details</button>
+    </div>
+
+    <!-----------------------------------------FIXED SIDEBAR---------------------------------->
+    <div class="fixed-container">
+
+      <div class="fixed-content" onclick="location.href='03-introduction.html'">Introduction</div>
+      <div class="fixed-content" onclick="location.href='04-variables.html'">Variables</div>
+      <div class="fixed-content" onclick="location.href='05-operators.html'">Operators</div>
+      <div class="fixed-content active" onclick="location.href='06-counterprogram.html'">Counter Program</div>
+      <div class="fixed-content" onclick="location.href='07-functions.html'">Function</div>
+      <div class="fixed-content" onclick="location.href='08-numgenerator.html'">Number Generator</div>
+      <div class="fixed-content" onclick="location.href='09-ifelse.html'">If and Else</div>
+      <div class="fixed-content" onclick="location.href='10-check.html'">Checked Property</div>
+      <div class="fixed-content" onclick="location.href='11-switch.html'">Switch Case</div>
+      <div class="fixed-content" onclick="location.href='12-while.html'">While loops</div>
+      <div class="fixed-content" onclick="location.href='13-forloop.html'">For loops</div>
+      <div class="fixed-content" onclick="location.href='14-guessing.html'">Guessing Game</div>
+      <div class="fixed-content" onclick="location.href='15-conversion.html'">Temperature Conversion</div>
+      <div class="fixed-content" onclick="location.href='16-arrays.html'">Arrays</div>
+      <div class="fixed-content" onclick="location.href='17-callback.html'">Callbacks</div>
+      <div class="fixed-content" onclick="location.href='18-methods.html'">Array Methods</div>
+      <div class="fixed-content" onclick="location.href='19-object.html'">Object</div>
+      <div class="fixed-content" onclick="location.href='20-this.html'">This Keyword</div>
+      <div class="fixed-content" onclick="location.href='21-dice.html'">Dice Roller</div>
+      <div class="fixed-content" onclick="location.href='22-date.html'">Date</div>
+      <div class="fixed-content" onclick="location.href='23-set.html'">SetTimeOut</div>
+      <div class="fixed-content" onclick="location.href='24-async.html'">Asynchronus Programming</div>
+      <div class="fixed-content" onclick="location.href='25-error.html'">Error Handling</div>
+      <div class="fixed-content" onclick="location.href='26-dom.html'">DOM</div>
+      <div class="fixed-content" onclick="location.href='27-selector.html'">Element Selector</div>
+      <div class="fixed-content" onclick="location.href='28-listener.html'">Event Listeners</div>
+      <div class="fixed-content" onclick="location.href='29-hide.html'">Hide and Show</div>
+      <div class="fixed-content" onclick="location.href='30-await.html'">Async and Await</div>
+      <div class="fixed-content" onclick="location.href='31-json.html'">JSON</div>
+      <div class="fixed-content" onclick="location.href='32-parse.html'">Stringify - Parse</div>
+    </div>
+
+    <!------------------------------------------MAIN CONTAINER---------------------------------->
+    <div class="main-container">
+      
+      <div class="title-container"><h1>COUNTER PROGRAM</h1></div>
+      
+      <div class="project-container">
+        <h1 class="number" id="score">0</h1>
+        <div class="buttons-container">
+          <button id="decreaseBtn">Decrease</button>
+          <button id="resetBtn">Reset</button>
+          <button id="increaseBtn">Increase</button>
+        </div>
+      </div>
+
+      <div class="first-phase-container">
+        <p class="txtlvl2"><span class="smallOrange-txt">Counter Program</span> is generally designed
+         to help users count numbers and accurately. 
+        </p>
+        <p class="smallOrange-txt">Features</p>
+        <p class="txtlvl2">1. Counting: Users can increment or decrement numbers with a simple tap or click. <br>
+          2. Reset: Users can reset the counter to its initial state with a dedicated button. <br>
+          3. Convenience: It provides a convenient way to keep track of numbers, 
+          whether it's for counting objects, tracking scores, or any other purpose. <br>
+          4. Accuracy: The application ensures accurate counting, reducing 
+          the chances of errors that may occur with manual counting.
+        </p>
+        <p class="smallOrange-txt">Usage</p>
+        <p class="txtlvl2"><span class="smallOrange-txt">Education: </span>It can be used in educational settings to teach counting, arithmetic, 
+          and even more advanced concepts like number patterns and sequences. <br>
+          <span class="smallOrange-txt">Counting Objects: </span> Useful for counting objects in various scenarios, such as inventory management, 
+          scientific experiments, or simply counting for fun. <br>
+          <span class="smallOrange-txt">Game Scores: </span> In gaming contexts, it can track scores or progress within a game.
+        </p>
+      </div>
+
+      <div class="tutorial-container">
+        <p class="txtlvl1">Brief Tutorial and Guide</p>
+        <p class="txtlvl2">First, Create all the elements needed such as h1 element, threee(3) buttons for increase, decrease and reset.</p>
+        <div class="image-container">
+          <img src="codepng/06-counter6.png" class="big-img">
+        </div>
+        <p class="txtlvl2">Include this in your html body and style it using CSS based and according to your own preference.</p>
+        <p class=txtlvl2>After including all the necessary elements and styling it. We can now proceed to brief JS tutorial.</p>
+        <p class="txtlvl2">First, using element selector. Select all the elements inside your HTML body using their ID following this format 
+          below.
+        </p>
+        <div class="image-container">
+          <img src="codepng/06-counter1.png" class="long-img">
+        </div>
+        <p class="txtlvl2">After selecting all the elements inside your JavaScript file, you can now manipulate it. We will discuss more 
+          about element selector in the following tutorials. But for now, this is the essence of element selectors, they are use to select elements 
+          inside your HTML and importing it inside your JS files. After selecting the elements, you can now set count value and create 
+          functions to give command for each button. 
+          In this particular, we want the buttons to perform an increase, decrease and reset function. We can implement it using this code.
+        </p>
+        <div class="image-container">
+          <img src="codepng/06-counter2.png" class="big-img">
+          <img src="codepng/06-counter3.png" class="big-img">
+          <img src="codepng/06-counter4.png" class="big-img">
+          <img src="codepng/06-counter5.png" class="big-img">
+        </div>
+        <p class=txtlvl2>This is everything you need to create this <span class="smallOrange-txt">Counter Program</span>. If you want 
+        the source code to view more information about the HTML structure, CSS, and JavaScript, you can click the text below.
+        </p>
+        <div class="source-code-container">
+          <a href="06-sourcecode.html">View Source Code</a>
+        </div>
+      </div>
+      
+
+
+      <div class="button-container">
+        <button class="button-bottom" onclick="location.href='02-tutorialmenu.html'"><span class="button-top">Tutorial Menu</span></button>
+        <button class="tutorial-button" onclick="location.href='07-functions.html'"><span class="tutorial-span">Next Tutorial</span></button>
+      </div>
+    </div>
+  </div>
+  <script src="scriptings/06-counterprogram.js"></script>
+</body>
+</html>
