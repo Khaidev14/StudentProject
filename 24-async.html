@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylings/1A-tutorial.css">
+  <script src="https://kit.fontawesome.com/e155b39f59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-----------------------------------------------HEADER---------------------------------------->
+    <div class="header">
+      <button class="tag-logo">
+        <span class="original-text">&nbsp;Javascript&nbsp;</span>
+        <span class="animated-text">&nbsp;Javascript&nbsp;</span>
+      </button>
+      <div class="navigation-container">
+        <a class="nav-choice" href="01-index.html">Home</a>
+        <a class="nav-choice" href="3A-dev.html">developer</a>
+        <a class="nav-choice" href="02-tutorialmenu.html">Tutorials</a>
+        <a class="nav-choice" href="3A-research.html" target="_blank">Research</a>
+      </div>
+      <button class="message-button" onclick="location.href='3A-contact.html'">Contact Details</button>
+    </div>
+
+    <!-----------------------------------------FIXED SIDEBAR---------------------------------->
+    <div class="fixed-container">
+      <div class="fixed-content" onclick="location.href='03-introduction.html'">Introduction</div>
+      <div class="fixed-content" onclick="location.href='04-variables.html'">Variables</div>
+      <div class="fixed-content" onclick="location.href='05-operators.html'">Operators</div>
+      <div class="fixed-content" onclick="location.href='06-counterprogram.html'">Counter Program</div>
+      <div class="fixed-content" onclick="location.href='07-functions.html'">Function</div>
+      <div class="fixed-content" onclick="location.href='08-numgenerator.html'">Number Generator</div>
+      <div class="fixed-content" onclick="location.href='09-ifelse.html'">If and Else</div>
+      <div class="fixed-content" onclick="location.href='10-check.html'">Checked Property</div>
+      <div class="fixed-content" onclick="location.href='11-switch.html'">Switch Case</div>
+      <div class="fixed-content" onclick="location.href='12-while.html'">While loops</div>
+      <div class="fixed-content" onclick="location.href='13-forloop.html'">For loops</div>
+      <div class="fixed-content" onclick="location.href='14-guessing.html'">Guessing Game</div>
+      <div class="fixed-content" onclick="location.href='15-conversion.html'">Temperature Conversion</div>
+      <div class="fixed-content" onclick="location.href='16-arrays.html'">Arrays</div>
+      <div class="fixed-content" onclick="location.href='17-callback.html'">Callbacks</div>
+      <div class="fixed-content" onclick="location.href='18-methods.html'">Array Methods</div>
+      <div class="fixed-content" onclick="location.href='19-object.html'">Object</div>
+      <div class="fixed-content" onclick="location.href='20-this.html'">This Keyword</div>
+      <div class="fixed-content" onclick="location.href='21-dice.html'">Dice Roller</div>
+      <div class="fixed-content" onclick="location.href='22-date.html'">Date</div>
+      <div class="fixed-content" onclick="location.href='23-set.html'">SetTimeOut</div>
+      <div class="fixed-content active" onclick="location.href='24-async.html'">Asynchronus Programming</div>
+      <div class="fixed-content" onclick="location.href='25-error.html'">Error Handling</div>
+      <div class="fixed-content" onclick="location.href='26-dom.html'">DOM</div>
+      <div class="fixed-content" onclick="location.href='27-selector.html'">Element Selector</div>
+      <div class="fixed-content" onclick="location.href='28-listener.html'">Event Listeners</div>
+      <div class="fixed-content" onclick="location.href='29-hide.html'">Hide and Show</div>
+      <div class="fixed-content" onclick="location.href='30-await.html'">Async and Await</div>
+      <div class="fixed-content" onclick="location.href='31-json.html'">JSON</div>
+      <div class="fixed-content" onclick="location.href='32-parse.html'">Stringify - Parse</div>
+    </div>
+
+    <!------------------------------------------MAIN CONTAINER---------------------------------->
+    <div class="main-container">
+      
+      <div class="title-container"><h1>ASYNCHRONOUS PROGRAMMING</h1></div>
+      
+      <div class="first-phase-container">
+        <p class="txtlvl1">What is Asynchronous programming in JavaScript?</p>
+        <p class="txtlvl2">&emsp;&emsp;&emsp;In JavaScript, asynchronous programming is the capacity to carry out 
+          several tasks simultaneously without obstructing the execution of later code. The program waits for each 
+          operation to finish before moving on to the next in classical synchronous programming, where each operation 
+          is carried out one after the other. Asynchronous programming, on the other hand, allows operations to begin
+          and end without waiting for the program to complete.
+        </p>
+
+        <p class="smallOrange-txt">Key Components</p>
+        <p class="txtlvl2"><span class="smallOrange-txt">Callback: </span>Functions sent as inputs to other 
+          functions are called callbacks. They are frequently used in asynchronous programming to indicate the 
+          desired outcome of an asynchronous action. For instance, a callback is typically sent as a parameter 
+          to many Node.js functions in order to manage asynchronous tasks like reading files or sending HTTP requests.
+        </p>
+        <p class="txtlvl2"><span class="smallOrange-txt">Promises: </span>Promises are objects that indicate 
+          whether an asynchronous operation will ultimately succeed or fail and what will happen as a result.
+           Compared to callbacks, they offer a more structured method of processing asynchronous code, which 
+           enables improved error handling and asynchronous operation chaining. The then() and catch() functions
+          in promises are used to manage successful and unsuccessful outcomes, respectively.
+        </p>
+        <p class="txtlvl2"><span class="smallOrange-txt">Async/Await: </span>Introduced in ECMAScript 2017 (ES8), 
+          async functions and the await keyword are two more recent enhancements to JavaScript that offer a more 
+          synchronous approach to writing asynchronous code. The await keyword can be used in async methods to halt 
+          execution until a Promise is accepted or rejected. Async functions return Promises. This syntax, 
+          which mimics synchronous code flow, makes writing and reading asynchronous code easier.
+        </p>
+
+        <p class="smallOrange-txt">There are two(2) effective methods on how to use and perform asynchronous programming: 
+        </p>
+        <p class="smallOrange-txt">1. Asynchronus programming using Callbacks.</p>
+        <div class="image-container">
+          <img src="codepng/24-asy1.png" class="long-img">
+        </div>
+        <p class="smallOrange-txt">2. Asynchronus programming using Promises.</p>
+        <div class="image-container">
+          <img src="codepng/24-asy2.png" class="long-img">
+        </div>
+        <p class="smallOrange-txt">What is promise in asynchronus programming? </p>
+        <p class="txtlvl2">&emsp;&emsp;&emsp;An object that symbolizes the ultimate success (or failure) of an asynchronous 
+          action and its resultant value in JavaScript is called a promise. Promises offer superior error 
+          handling and the ability to chain numerous asynchronous activities together, making them a more s
+          tructured approach to managing asynchronous code than standard callback-based methods.
+        </p>
+      </div>
+      
+
+      <div class="button-container">
+        <button class="button-bottom" onclick="location.href='02-tutorialmenu.html'"><span class="button-top">Tutorial Menu</span></button>
+        <button class="tutorial-button" onclick="location.href='25-error.html'"><span class="tutorial-span">Next Tutorial</span></button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
